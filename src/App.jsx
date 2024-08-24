@@ -4,9 +4,9 @@ function App() {
   return (
     <form
       name="contact"
-      method="post"
+      action="/pages/success"
+      method="POST"
       data-netlify="true"
-      data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact" />
       <p>
